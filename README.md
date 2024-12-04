@@ -17,12 +17,12 @@ It can also be found at this URL: https://catalog.data.gov/dataset/conditions-co
     - Use database strategies to handle the large dataset efficiently.
     - Standardize tables for easy queries on age groups  and conditions of individuals.
 - **Machine Learning Model:**
-    - Train a model based on historical COVID-19 death rates.
-    - Create a classification model to find high-risk patients.
+    - Train a model based on historical data on COVID-19 deaths.
+    - Use predicted deaths to determine the mortality rate of patients for COVID-19.
 - **Evaluation:**
     - Use MSE, R^2 score, and MAE to evaluate the model.
 - **Visualization and Reporting:**
-    - Generate visualizations of predicted death rates based on age groups and condition groups.
+    - Generate visualizations of COVID-19 death rates based on age and condition groups.
  
 ### Requirements
 
@@ -35,6 +35,7 @@ The Following Libraries are used:
 - `matplotlib.pyplot`
 - `seaborn`
 - `sklearn`
+- 'xgboost'
 
 ### Key Functions
 
