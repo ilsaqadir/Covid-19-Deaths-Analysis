@@ -20,7 +20,7 @@ It can also be found at this URL: https://catalog.data.gov/dataset/conditions-co
     - Train a model based on historical COVID-19 death rates.
     - Create a classification model to find high-risk patients.
 - **Evaluation:**
-    - Use MSE, R^2, and MAE to evaluate the model.
+    - Use MSE, R^2 score, and MAE to evaluate the model.
 - **Visualization and Reporting:**
     - Generate visualizations of predicted death rates based on age groups and condition groups.
  
@@ -38,6 +38,6 @@ The Following Libraries are used:
 
 ### Key Functions
 
-Test the model by inputting the state an individual is in, their age group, and what condition they have. The model would then return their predicted deaths for COVID-19. Then it uses the predicted deaths to determine the patient's mortality rate for COVID-19.
+Model was tested by inputting the state an individual is in, their age group, and what condition they have. The model would then return their predicted deaths for COVID-19. The predicted deaths are used to determine the patient's mortality rate for COVID-19.
 
 
