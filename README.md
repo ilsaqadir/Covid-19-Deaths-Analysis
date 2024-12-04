@@ -1,4 +1,5 @@
-# Covid-19-Deaths-Analysis
+# Predicting High-Risk Covid-19 Patients and Mortality Rates
+
 This project analyzes COVID-19 deaths based on conditions, age groups, and the states in which people are located. It uses historical data to create a model that helps determine patients' mortality rates and whether or not they are high-risk.
 
 ### Dataset
