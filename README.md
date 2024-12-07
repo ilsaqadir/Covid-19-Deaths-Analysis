@@ -36,10 +36,10 @@ The Following Libraries are used:
 - `matplotlib.pyplot`
 - `seaborn`
 - `sklearn`
-- 'xgboost'
+- `xgboost`
 
 ### Key Functions
 
-Model was tested by inputting the state an individual is in, their age group, and what condition they have. The model would then return their predicted deaths for COVID-19. The predicted deaths are used to determine the patient's mortality rate for COVID-19.
+Model was tested by inputting the state an individual is in, their age group, and what condition they have. The model would then return their predicted deaths for COVID-19. The predicted deaths are used to determine the patient's mortality rate for COVID-19 which will then determine if they are high-risk.
 
 
