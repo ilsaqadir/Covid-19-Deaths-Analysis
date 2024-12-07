@@ -48,8 +48,8 @@ To determine high-risk COVID-19 patients:
 test_case = [['New Jersey','65-74', 'Respiratory failure']]
 
 Returns:
- State Age Group            Condition  Predicted Deaths
-0  New Jersey     65-74  Respiratory failure        125.371330
+State        Age Group        Condition         Predicted Deaths
+New Jersey     65-74     Respiratory failure      125.371330
 
 To determine the Mortality Rate (%):
 Age Group	    Condition	        Predicted Deaths	Total Deaths	Mortality Rate
