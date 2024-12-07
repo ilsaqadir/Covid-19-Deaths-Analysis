@@ -42,4 +42,18 @@ The Following Libraries are used:
 
 Model was tested by inputting the state an individual is in, their age group, and what condition they have. The model would then return their predicted deaths for COVID-19. The predicted deaths are used to determine the patient's mortality rate for COVID-19 which will then determine if they are high-risk.
 
+## Example
+To determine high-risk COVID-19 patients:
+```python
+test_case = [['New Jersey','65-74', 'Respiratory failure']]
+
+Returns:
+ State Age Group            Condition  Predicted Deaths
+0  New Jersey     65-74  Respiratory failure        125.371330
+
+To determine the Mortality Rate (%):
+Age Group	Condition	        Predicted Deaths	Total Deaths	Mortality Rate
+0	65-74	Respiratory failure	   125.371330	      10721.0	       1.169400
+```
+
 
