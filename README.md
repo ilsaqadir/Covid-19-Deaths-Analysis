@@ -46,14 +46,14 @@ Model was tested by inputting the state an individual is in, their age group, an
 To determine high-risk COVID-19 patients:
 ```python
 test_case = [['New Jersey','65-74', 'Respiratory failure']]
-
+```
 Returns:
  State Age Group            Condition  Predicted Deaths
 0  New Jersey     65-74  Respiratory failure        125.371330
 
 To determine the Mortality Rate (%):
-Age Group	Condition	        Predicted Deaths	Total Deaths	Mortality Rate
-0	65-74	Respiratory failure	   125.371330	      10721.0	       1.169400
-```
+Age Group	    Condition	        Predicted Deaths	Total Deaths	Mortality Rate
+65-74	   Respiratory failure	       125.371330	      10721.0	       1.169400
+
 
 
