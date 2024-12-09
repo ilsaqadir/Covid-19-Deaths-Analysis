@@ -4,8 +4,7 @@ This project analyzes COVID-19 deaths based on conditions, age groups, and the s
 
 ### Dataset
 
-The dataset has been included in the repository as a zip file.
-It can also be found at this URL: https://catalog.data.gov/dataset/conditions-contributing-to-deaths-involving-coronavirus-disease-2019-covid-19-by-age-group
+The CSV file can be downloaded from this URL: https://data.cdc.gov/api/views/hk9y-quqm/rows.csv?accessType=DOWNLOAD
 
 ### Features
 
