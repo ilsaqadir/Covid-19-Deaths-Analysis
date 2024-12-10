@@ -25,9 +25,7 @@ This project analyzes COVID-19 deaths based on conditions, age groups, and the s
 - **Visualization and Reporting:**
     - Generate visualizations of COVID-19 death rates based on age and condition groups.
  
-### Requirements
-
-The Following Libraries are used:
+### Libraries Used
 
 - `pandas`
 - `numpy`
